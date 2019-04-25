@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+
+td{
+  padding: 5px;
+}
+
+.Topping{
+  background-image: url('../topping.jpg');
+  background-repeat:no-repeat;
+  display: inline-block;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.portrait{
+  padding: 8px;
+  padding-left: 32px;
+}
+
+.topping_h1{
+  color: white;
+  display: inline;
+  padding-left: 20px;
+}
+
+.topping_p{
+  color: white;
+  display: inline;
+  padding-left: 50px;
+}
+
+.topping_links{
+  color: white;
+  display: inline;
+  padding: 20px;
+}
+
+.topping_links:hover{
+  background-color: gray;
+}
+
+.content{
+  display: block;
+  left: 20px;
+  position: absolute;
+  top: 200px;
+}
+
+.educationtable{
+  padding: 15px;
+}
